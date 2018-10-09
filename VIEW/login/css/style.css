@@ -1,0 +1,165 @@
+/*================================================ K O N T A K ================================================================*/
+*{
+	padding: 0;
+	margin:0;
+
+}
+body{
+	background-color:#F7F7F7;
+}
+#container {
+	width: 900px;
+	margin: auto;
+	margin-top: 100px;
+}
+#topmenu {
+	text-align: center;
+}
+.menu {
+	list-style: none;
+	font-family:"Comic Sans MS";
+	font-weight: bold;
+}
+.menu li {
+	display: inline;
+}
+.menu li a {
+	display: inline-block;
+	padding: 10px 20px;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.menu li a:hover {
+	border-bottom: solid 2px #7B68EE;
+}
+
+#Medsos{
+	text-align: center;
+	margin-top: 0px;
+
+}
+.imedsos{
+	padding:0 40px 0 40px;
+}
+.main {
+	background-color: white;
+	height: 500px;
+	width: 350px;
+	float: left;
+	text-align: left;
+	font-family:"Calibri";
+	
+}
+.maintext{
+	padding:35px 0px 0px 30px;
+	margin: 80px 30px auto;
+}
+.mainn{
+	background-image: url("../img/gam.jpg");
+	background-repeat: no-repeat;
+	height: 500px;
+	width: 550px;
+	margin-left: 350px;
+	padding-right: 0px;
+	
+}
+
+#hone {
+	color: grey;
+	float: left;
+}
+#htwo {
+	color :black;
+	float: right;
+	margin-right: 70px;
+}
+#hthree {
+	color: grey;
+	margin-top: 50px;
+}
+ .inp {
+ 	margin-top: 40px;
+ }
+#inp1 {
+	border-bottom: none;
+}
+
+
+input{
+	padding:10px 30px;
+	/*margin: 10px;*/
+	display: inline;
+	float: left;
+	background: transparent;
+	border: solid #F7F7F7;
+}
+
+input:focus {
+	border-left: red solid 1px;
+}
+
+textarea{
+	padding:20px;
+	margin:10px;
+	background: transparent;
+	border: solid;
+}
+button{
+	color: white;
+	border: none;
+	background: #7B68EE;
+	padding: 5px;
+	cursor: pointer;
+}
+#tombol{
+	text-align: center;
+}
+
+.but {
+	margin: 420px 0px 0 400px;
+}
+
+#but1 {
+	background-color: transparent;
+	border: white solid 1px;
+	color: white;
+}
+#but2 {
+	background-color: #5F7168;
+	border: #5F7168 solid 1px;
+	color: white;
+	float: left;
+}
+
+#rem {
+	float: left;
+	color: black;
+} 
+#forgot {
+	text-decoration: none;
+	color: black;
+	float: right;
+}
+.tomboll {
+	margin-top: 70px;
+}
+
+#tomm1 {
+	background-color: black;
+	color: white;
+	border: black solid 1px;
+	border-radius: 3px;
+	padding: 10px 30px;
+	margin-right: 20px;
+}
+
+#tomm2 {
+	background-color: transparent;
+	color: grey;
+	border: grey solid 1px;
+	border-radius: 3px;
+	padding: 10px 30px;
+
+}
