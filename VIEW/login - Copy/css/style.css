@@ -75,51 +75,7 @@ body{
 	margin-top: 50px;
 }
 
-.input_box {
-	position: relative;
-}
 
-#masukan {
-	width: 80%;
-	padding:30px 30px 5px 30px;
-	font-size: 16px;
-	/*font-weight: bold;*/
-	border: 1px solid #F0F0F0;
-	outline: none;
-	background: ;
-	/*color: #fff;*/
-	letter-spacing: 1px;
-}
-
-.inp1 {
-	border-bottom: none;
-}
-
-
-label {
-	position: absolute;
-	top: 7px;
-	left: 30px;
-	padding: 10px 0;
-	font-size: 16px;
-	color: ;
-	pointer-events: none;
-	transition: .5s;
-}
-#masukan:focus {
-	border-left: solid 1px red;
-}
-#masukan:focus ~ label,
-#masukan:valid ~ label {
-	top: -2px;
-	left: 30px;
-	color: grey;
-	font-size: 12px;
-}
-
-.rem {
-	padding-left: 10px;
-}
 button{
 	color: white;
 	border: none;
@@ -148,28 +104,28 @@ button{
 	float: left;
 	font-size: 11px;
 }
- 
+
+#rem {
+	float: left;
+	color: black;
+	margin-left: 5px;
+} 
 #forgot {
 	text-decoration: none;
 	color: black;
 	float: right;
 }
 .tomboll {
-	margin-top: 20px;
+	margin-top: 70px;
 }
 
 #tomm1 {
-	background-color: transparent;
-	color: grey;
-	border: grey solid 1px;
+	background-color: black;
+	color: white;
+	border: black solid 1px;
 	border-radius: 3px;
 	padding: 10px 35px;
 	margin-right: 20px;
-}
-
-#tomm1:hover {
-	background-color: black;
-	color: white;
 }
 
 #tomm2 {
@@ -178,9 +134,5 @@ button{
 	border: grey solid 1px;
 	border-radius: 3px;
 	padding: 10px 30px;
-}
 
-#tomm2:hover {
-	background-color: black;
-	color: white;
 }
