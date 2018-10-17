@@ -1,0 +1,230 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+.container{
+	width: 900px;
+	margin:auto;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 30px;
+}
+.navbar ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+.navbar ul li input[type=text]{
+	border: none;
+	outline: none;
+	font-size: 14px;
+}
+.navbar ul li {
+	display: inline-block;
+	margin:0 5px;
+}
+
+.navbar ul li.line{
+	width: 10px
+	margin-left: 10px;
+	border-left: 1px solid black;
+}
+.navbar ul li a{
+	display: inline-block;
+	padding: 5px 10px;
+	text-decoration:none;
+	color: #333;
+}
+.navbar ul li.logo img{
+	width: 40px;
+}
+.content-nav{
+	text-align:center;
+	margin:130px auto;
+}
+.content-nav .title{
+	font-weight: 800;
+	font-size: 24px;
+	color: #333;
+}
+.content-nav .button{
+	margin-top: 30px;
+	padding: 10px 80px;
+	border: none;
+	outline: none;
+	border-radius: 2px;
+	font-size: 16px;
+	font-weight: 800px;
+	color: #fff;
+}
+.content-nav .btnright{
+	background: #D8376C;
+}
+.content-nav .btnleft{
+	background:#6ED051;
+}
+.overlay{
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.9);
+	overflow-x: hidden;
+	transition: 0.5s;
+}
+
+.overlay-content{
+	position: relative;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.overlay a{
+	padding: 8px;
+	text-decoration:none;
+	font-size: 36px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus{
+	color: #f1f1f1;
+}
+
+.overlay .closebtn{
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 60px;
+}
+
+@media screen and (max-height: 450px){
+	.overlay a {
+		font-size:20px;
+	}
+	.overlay .closebtn{
+		font-size: 40px;
+		top: 15px;
+		right: 35px;
+	}
+}
+
+.content{
+	margin:5%;
+}
+
+.snip1259{
+	background-color: #000000;
+	box-shadow: 0 0 5px rgba(0,0,0,0.15);
+	color: #ffffff;
+	float: left;
+	font-family: 'Open Sans',Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin:20px 5%;
+	max-width: 310px;
+	min-width: 250px;
+	overflow: hidden;
+	position: relative;
+	text-align:left;
+	width: 100%;
+}
+.snip1259 * {
+	-webkit-box-sizing:border-box;
+	box-sizing: border-box;
+	-webkit-trasition:all 0.25s ease;
+	transition: all 0.25s ease;
+}
+.snip1259 img {
+	max-width: 100%;
+	vertical-align: top;
+	position: relative;
+	opacity: 0.75;
+}
+.snip1259 figcaption {
+	padding: 25px 20px 25px;
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+}
+.snip1259 .date{
+	background-color: #fff;
+	color: #333;
+	font-size: 18px;
+	font-weight: 800;
+	min-height: 48px;
+	min-width: 48px;
+	padding: 10px 0;
+	position: absolute;
+	right: 15px;
+	text-align:center;
+	text-transform: uppercase;
+	top: 0;
+}
+.snip1259 .date span{
+	display: block;
+	line-height: 14px;
+}
+.snip1259 .date .month{
+	font-size: 11px;
+}
+.snip1259 h3,
+.snip1259 p{
+	margin: 0;
+	padding: 0;
+}
+.snip1259 h3{
+	font-weight: 800;
+	letter-spacing: -0.4px;
+}
+.snip1259 .hover{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	align-items: center;
+	background-color: rgba(236,188,46,0.75);
+	display: flex;
+	font-size: 65px;
+	justify-content: center;
+	opacity: 0;
+}
+.snip1259 a{
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: absolute;;
+	z-index: 1;
+}
+
+.snip1259:hover .hover,
+.snip1259.hover .hover{
+	-webkit-transition-delay:0.1s;
+	transition-delay: 0.1s;
+	opacity: 1;
+}
+.snip1259:hover figcaption,
+.snip1259.hover figcaption{
+	opacity: 0;
+}
+
+.snip1259:hover .date,
+.snip1259.hover .date{
+	-webkit-transform:translateY(-100%);
+	transform: translateY(-100%);
+}
